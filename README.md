@@ -1,3 +1,46 @@
+# CRUD Gambar
+
+Ini adalah proyek CRUD sederhana menggunakan CodeIgniter 4 untuk mengelola gambar. Dalam proyek ini, Anda dapat menambahkan, mengedit, dan menghapus entri gambar beserta deskripsi.
+
+## Fitur
+
+- Menambahkan gambar baru beserta deskripsi.
+- Mengedit gambar yang sudah ada.
+- Menghapus gambar.
+- Menampilkan daftar gambar beserta deskripsi.
+
+## Instalasi
+
+1. Clone repositori ini ke dalam folder htdocs (jika menggunakan XAMPP) atau folder web root server Anda.
+   git clone https://github.com/ikhwanhanif/codeigniter4_CRUD-Gambar.git
+2. Buat database MySQL baru dengan nama `gambar_db`.
+3. Buat table dengan nama `images`:
+   CREATE TABLE images (
+      id INT AUTO_INCREMENT PRIMARY KEY,
+      nama VARCHAR(255),
+      deskripsi TEXT,
+      file_gambar VARCHAR(255),
+      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+      updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+   );
+5. Buka file `app/Config/Database.php` dan sesuaikan pengaturan koneksi database dengan konfigurasi Anda.
+6. Buka file `C:\xampp\apache\conf\httpd.conf`, cari baris kode:
+   DocumentRoot "C:\xampp\htdocs"
+   <Directory "C:\xampp\htdocs">
+   Ganti dengan:
+   DocumentRoot "C:\xampp\htdocs\codeigniter4\public"
+   <Directory "C:\xampp\htdocs\codeigniter4\public">
+8. Akses proyek melalui web browser.
+   `http://localhost`
+
+## Kontribusi
+
+Kontribusi Anda akan sangat dihargai. Silakan buat _pull request_ untuk saran atau perubahan yang Anda ingin lakukan.
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanjut.
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
