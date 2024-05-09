@@ -17,8 +17,7 @@ Ini adalah proyek CRUD sederhana menggunakan CodeIgniter 4 untuk mengelola gamba
 3. Buat database MySQL baru dengan nama `gambar_db`.
 4. Buat table dengan nama `images`:
 
-   `<?php
-   CREATE TABLE images (
+   `CREATE TABLE images (
       id INT AUTO_INCREMENT PRIMARY KEY,
       nama VARCHAR(255),
       deskripsi TEXT,
