@@ -12,9 +12,10 @@ Ini adalah proyek CRUD sederhana menggunakan CodeIgniter 4 untuk mengelola gamba
 ## Instalasi
 
 1. Clone repositori ini ke dalam folder htdocs (jika menggunakan XAMPP) atau folder web root server Anda.
+   
    git clone https://github.com/ikhwanhanif/codeigniter4_CRUD-Gambar.git
-2. Buat database MySQL baru dengan nama `gambar_db`.
-3. Buat table dengan nama `images`:
+3. Buat database MySQL baru dengan nama `gambar_db`.
+4. Buat table dengan nama `images`:
    CREATE TABLE images (
       id INT AUTO_INCREMENT PRIMARY KEY,
       nama VARCHAR(255),
@@ -25,10 +26,15 @@ Ini adalah proyek CRUD sederhana menggunakan CodeIgniter 4 untuk mengelola gamba
    );
 5. Buka file `app/Config/Database.php` dan sesuaikan pengaturan koneksi database dengan konfigurasi Anda.
 6. Buka file `C:\xampp\apache\conf\httpd.conf`, cari baris kode:
+   
    DocumentRoot "C:\xampp\htdocs"
+   
    <Directory "C:\xampp\htdocs">
+   
    Ganti dengan:
+   
    DocumentRoot "C:\xampp\htdocs\codeigniter4\public"
+   
    <Directory "C:\xampp\htdocs\codeigniter4\public">
 8. Akses proyek melalui web browser.
    `http://localhost`
