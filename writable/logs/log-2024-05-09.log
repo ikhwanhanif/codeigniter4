@@ -1,0 +1,22 @@
+CRITICAL - 2024-05-09 15:22:32 --> ErrorException: unlink(C:\xampp\htdocs\codeigniter4\writable\uploads/1715267020_fe0471dc2755e85b1b87.jpg): No such file or directory
+[Method: POST, Route: images/update]
+in APPPATH\Controllers\Images.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\codeigniter4\\writable\\uploads/1715267020_fe0471dc2755e85b1b87.jpg): No such file or directory', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Images.php', 66)
+ 2 APPPATH\Controllers\Images.php(66): unlink('C:\\xampp\\htdocs\\codeigniter4\\writable\\uploads/1715267020_fe0471dc2755e85b1b87.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Images->update()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Images))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-05-09 15:22:39 --> ErrorException: unlink(C:\xampp\htdocs\codeigniter4\writable\uploads/1715267020_fe0471dc2755e85b1b87.jpg): No such file or directory
+[Method: POST, Route: images/update]
+in APPPATH\Controllers\Images.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\codeigniter4\\writable\\uploads/1715267020_fe0471dc2755e85b1b87.jpg): No such file or directory', 'C:\\xampp\\htdocs\\codeigniter4\\app\\Controllers\\Images.php', 66)
+ 2 APPPATH\Controllers\Images.php(66): unlink('C:\\xampp\\htdocs\\codeigniter4\\writable\\uploads/1715267020_fe0471dc2755e85b1b87.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Images->update()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Images))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
