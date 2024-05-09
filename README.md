@@ -16,15 +16,16 @@ Ini adalah proyek CRUD sederhana menggunakan CodeIgniter 4 untuk mengelola gamba
    git clone https://github.com/ikhwanhanif/codeigniter4_CRUD-Gambar.git
 3. Buat database MySQL baru dengan nama `gambar_db`.
 4. Buat table dengan nama `images`:
-   
-   `CREATE TABLE images (
+
+   <?php
+   CREATE TABLE images (
       id INT AUTO_INCREMENT PRIMARY KEY,
       nama VARCHAR(255),
       deskripsi TEXT,
       file_gambar VARCHAR(255),
       created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
       updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-   );`
+   );
 6. Buka file `app/Config/Database.php` dan sesuaikan pengaturan koneksi database dengan konfigurasi Anda.
 7. Buka file `C:\xampp\apache\conf\httpd.conf`, cari baris kode:
    
