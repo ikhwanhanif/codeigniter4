@@ -2,6 +2,8 @@
 
 <img width="500" alt="Codeigniter4" src="https://github.com/ikhwanhanif/codeigniter4/assets/108711453/e585913d-70dd-416f-b20c-a1a9042978ee">
 
+https://ikhwanhanif.github.io/codeigniter4/
+
 Ini adalah proyek CRUD sederhana menggunakan CodeIgniter 4 untuk mengelola gambar. Dalam proyek ini, Anda dapat menambahkan, mengedit, dan menghapus entri gambar beserta deskripsi.
 
 ## Fitur
